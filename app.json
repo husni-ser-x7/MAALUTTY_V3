@@ -19,7 +19,6 @@
          "YT_PASSWORD": {
             "description": "enter the password, to get password watch https://youtu.be/fd0KPblop-k .",
             "required": true
-            "value": "afamk"
         },
         "LANGUAGE": {
             "description": "Bot language.English => en",
