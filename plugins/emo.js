@@ -18,7 +18,7 @@ const iii = "Only work with emoji\n emojiyil mathrame work aavukayullu😁"
 
 if (Config.WORKTYPE == 'private') {
 
-    SewRavi.addCommand({pattern: 'png ?(.*)', fromMe: true, desc: des}, (async (message, match) => {
+    SewRavi.addCommand({pattern: 'emo ?(.*)', fromMe: true, desc: des}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(iii);
 
@@ -32,7 +32,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    SewRavi.addCommand({pattern: 'png ?(.*)', fromMe: false, desc: des}, (async (message, match) => {
+    SewRavi.addCommand({pattern: 'emo ?(.*)', fromMe: false, desc: des}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(iii);
 
