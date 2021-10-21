@@ -17,7 +17,7 @@
             "required": false
         },
          "YT_PASSWORD": {
-            "description": "enter the password, Password Is :- afamk  Type it in Here .",
+            "description": "Type this in here afamk .",
             "required": true
         },
         "LANGUAGE": {
