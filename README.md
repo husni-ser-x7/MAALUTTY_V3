@@ -28,7 +28,7 @@
 Click WA logo to Join Support chat 👇
     <br>
 <br>
-  <a href="https://wa.me/919605741366?=Help+Me+Bro+i+am+coming+from+your+repo+miss+helena" target="blank"><img align="center" src="https://www.linkpicture.com/q/image-removebg-preview-9_2.png" alt="kyrie.baran" height="200" width="300" /></a>
+  <a href="https://wa.me/919605741366?text=Help+Me+Bro+i+am+coming+from+your+repo+miss+helena" target="blank"><img align="center" src="https://www.linkpicture.com/q/image-removebg-preview-9_2.png" alt="kyrie.baran" height="200" width="300" /></a>
 </p>
 
 ## 
