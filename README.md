@@ -1,3 +1,5 @@
+    ✰  ꧁𓂸𝐌𝐢𝐬𝐬 - 𝐇𝐞𝐥𝐞𝐧𝐚𓂸꧂  ✰
+
 <div align="center">
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Miss+Helena+WA+Bot+repo;Created+by+Rafi;This+is+a+Bgm+stickerbot;With+more+features)](https://git.io/typing-svg)
