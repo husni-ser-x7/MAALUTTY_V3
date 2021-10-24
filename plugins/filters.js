@@ -121,6 +121,9 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '919605741366@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./Amalser/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
+ if (!!message.mention && message.mention[0] == '917994909899@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./Amalser/stickameen.webp'), MessageType.sticker, { mimetype: Mimetype.webp,quoted : message.data, ptt: false})
+       
 const array = ['Malare','git','Ameen','mention','chaya','escape','truth','hm','pottan','oh','nokk','nude','oo','hi','kali','Remove','bot','lost','copy','Da','come','sex','help','sorry','podi','nee','done','kalam','Di','Dey','oho','Welcome','Nanba','ee','Hello','para','kindi','list','check','podey','odiko','save','Hii','oii','sad','sed','thenga','bad','run','remove','love','kick','enth','alive','amal','menu','ella','unmute','mute','Ayye','pm','Hhee','Patti','Chumma paranjatha','Myr','rply','selfie','ban','Sad','fuk','Engenend','Pattula','sticker','da','kittiyo','Comedy','resendo','Poda','mrng','Bot','Rafi','rafi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
