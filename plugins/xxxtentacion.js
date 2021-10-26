@@ -51,7 +51,7 @@ r_text[14] = "https://telegra.ph/file/9244f93fb8ab4eb17a05f.jpg";
 r_text[15] = "https://telegra.ph/file/00a4732edf86b425ecdea.jpg";
 
 
-var i = Math.floor(16*Math.random())
+var i = Math.floor(15*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
@@ -100,7 +100,7 @@ r_text[14] = "https://telegra.ph/file/9244f93fb8ab4eb17a05f.jpg";
 r_text[15] = "https://telegra.ph/file/00a4732edf86b425ecdea.jpg";
 
 
-    var i = Math.floor(16*Math.random())
+    var i = Math.floor(15*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
