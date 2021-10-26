@@ -17,7 +17,7 @@
             "required": false
         },
          "YT_PASSWORD": {
-            "description": "Password in Video.",
+            "description": "Password is afamk type it in here.",
             "required": true
         },
         "LANGUAGE": {
