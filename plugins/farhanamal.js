@@ -31,8 +31,8 @@ Neotro.addCommand({pattern: 'list', fromMe: false, dontAddCommandList: true}, (a
        const sections = [{title: "꧁𓂸𝐌𝐢𝐬𝐬 ✰ 𝐇𝐞𝐥𝐞𝐧𝐚𓂸꧂", rows: rows}]
        
        const button = {
-        buttonText: '𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘',
-        description: "❣︎ ꧁𓂸𝗠𝗶𝘀𝘀 ✰ 𝗛𝗲𝗹𝗲𝗻𝗮𓂸꧂ ❣︎",
+        buttonText: '𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐒𝐞𝐥𝐞𝐜𝐭',
+        description: "💖𝙷𝚎𝚛𝚎 𝙸𝚜 𝙼𝚢 𝙻𝚒𝚜𝚝💖",
         sections: sections,
         listType: 1
        }
