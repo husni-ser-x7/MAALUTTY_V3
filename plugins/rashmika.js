@@ -422,7 +422,7 @@ r_text[199] = "https://i.ibb.co/1mGJ6mV/rashmika-mandanna-20200304-0046.jpg";
 
 r_text[200] = "https://i.ibb.co/qjySbDs/rashmika-mandanna-20200304-0051.jpg";
 
-var i = Math.floor(201*Math.random())
+var i = Math.floor(200*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
@@ -838,7 +838,7 @@ r_text[199] = "https://i.ibb.co/1mGJ6mV/rashmika-mandanna-20200304-0046.jpg";
 
 r_text[200] = "https://i.ibb.co/qjySbDs/rashmika-mandanna-20200304-0051.jpg";
 
-    var i = Math.floor(201*Math.random())
+    var i = Math.floor(200*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
