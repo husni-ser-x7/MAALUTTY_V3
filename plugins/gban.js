@@ -8,7 +8,7 @@ const ffmpeg = require('fluent-ffmpeg')
 const translatte = require('translatte');
 const ytdl = require('ytdl-core');
 var dsc = ''
-if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
+if (Config.LANG == 'EN' || Config.LANG == 'AZ') {
   dsc = 'Birkaç İnteraktif Ban Mesajı Gönderir.'
 } else {
   dsc = 'Sends Different Ban Messages.'
