@@ -147,9 +147,7 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 ╭──────────────────╯
 │ ◩ Bot Name: 𝙼𝚒𝚜𝚜 𝙷𝚎𝚕𝚎𝚗𝚊
  ──────────────────╯
-*To check update .update   To update Bot .update now*
-*githublink* : https://github.com/Luciferking1/Miss-Helenaa
-*audio commads* : https://github.com/Luciferking1/Miss-Helenaa/tree/master/uploads
+*To check update .update   To update Bot .update now*\n\n*githublink* : https://github.com/Luciferking1/Miss-Helenaa\n*audio commads* : https://github.com/Luciferking1/Miss-Helenaa/tree/master/uploads
 `}) 
 
 }));
