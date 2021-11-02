@@ -19,7 +19,6 @@
          "YT_PASSWORD": {
             "description": "Password is afamk type it in here.",
             "required": true
-            "value": "afamk"
         },
         "LANGUAGE": {
             "description": "Bot language.English => en",
