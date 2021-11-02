@@ -8,8 +8,8 @@
     "success_url": "https://github.com/farhan-dqz/Julie-Mwol",
     "stack": "container",
     "env": {
-        "JULIE_SESSION": {
-            "description": "Type here yours Asena Session.",
+        "AMALSER_CODE": {
+            "description": "Type the code when you got by scanning QR through WhatsApp.",
             "required": true
         },
         "SUDO": {
@@ -55,6 +55,11 @@
             "required": false,
             "value": "false"
         },
+        "TAG_REPLY": {
+            "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
+            "required": false
+
+        },
         "ANTİ_LİNK": {
             "description": "Link Blocking System.",
             "required": true,
@@ -67,6 +72,15 @@
         },
         "AUTO_BİO": {
             "description": " Set true for auto date, time in biography.",
+            "required": true,
+            "value": "false"
+        },
+        "NUMBER": {
+            "description": "give your orginal phone number if you wish to add it in .number cmnd ",
+            "required": false
+        },
+        "BAD_WORDS": {
+            "description": "enter the word you dont allow in your group ",
             "required": true,
             "value": "false"
         },
@@ -108,6 +122,10 @@
             "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
+        },
+        "DEPLOYER": {
+            "description": "enter your name here",
+            "required": false
         },
         "TAG_HEADER": {
             "description": "Heading when taging all",
