@@ -173,10 +173,10 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 } 
           }
     });//thanx afnanplk
-   /* setInterval(async () => { 
+    setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
-        var ansk = 'https://gist.github.com/cyberchekuthan/990794cbe26dd78db7e68c0d364a5c8c/raw'
+        var ansk = 'https://gist.github.com/Luciferking1/daf327812f961f07e479fb7bba6c9546/raw'
          
         while (getGMTh == 9 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -218,7 +218,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             
             return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
         }
-    }, 50000);//Thanks to souravkl11 */
+    }, 50000);//Thanks to souravkl11 
 
     conn.on('chat-update', async m => {
         if (!m.hasNewMessage) return;
