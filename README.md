@@ -1,4 +1,4 @@
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=✰  ꧁𓂸𝐌𝐢𝐬𝐬 - 𝐇𝐞𝐥𝐞𝐧𝐚𓂸꧂  ✰
+        ✰  ꧁𓂸𝐌𝐢𝐬𝐬 - 𝐇𝐞𝐥𝐞𝐧𝐚𓂸꧂  ✰
 
 <div align="center">
 
