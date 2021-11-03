@@ -240,7 +240,7 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\n*To update Bot give this command: .update now*\n\n*Ask To The Owners Of This Bot Before Updating\nOwner 1- wa.me/919605741366\nOwner 2- wa.me/917994909899\n\nChanges:\n```",
+            "NEW_UPDATE": "*New update available for Bot!*\n\n*To update Bot give this command: .update now*\n\n*Join This Group Before Updating\nhttps://chat.whatsapp.com/DY648JIMzr9FwXpy1EsYhd\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "Updating..💖",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
