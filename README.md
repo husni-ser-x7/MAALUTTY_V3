@@ -4,7 +4,7 @@
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=Welcome+to+Miss+Helena+WA+Bot+repo.;Created+by+Rafi+and+Ameen;This+is+a+Bgm+stickerbot;With+more+features;Thanks+for+visiting+our+git)](https://git.io/typing-svg)
 
-<svg class="pulse" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100">hy
+<svg class="pulse" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100">[hy]
 
  </a>
 </p>
