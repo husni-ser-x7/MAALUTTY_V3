@@ -23,22 +23,15 @@
 </p>
 
 ##
-  <h3 align="center">📢 Support Chat 1:</h3>
+  <h3 align="center">📢 JOIN OUR SUPPORT GROUP:</h3>
 <p align="center">
-Click WA logo to  Support chat 1 🎗️
+CLICK THIS LOGO TO JOIN OUR SUPPORT GROUP🎗️
     <br>
 <br>
-  <a href="https://wa.me/919605741366?text=Help+Me+Bro+I+Am+Coming+From+Your+Repo+Miss+Helena" target="blank"><img align="center" src="https://i.imgur.com/URkrOnx.png" alt="kyrie.baran" height="200" width="300" /></a>
+  <a href="https://chat.whatsapp.com/DY648JIMzr9FwXpy1EsYhd" target="blank"><img align="center" src="https://i.imgur.com/URkrOnx.png" alt="kyrie.baran" height="200" width="300" /></a>
 </p>
 
-## 
-  <h3 align="center">📢 Support Chat 2:</h3>
-<p align="center">
-Click  logo to Support Chat 2 🎗️
-    <br>
-<br>
-  <a href="https://wa.me/+917994909899?text=Help+Me+Bro+I+Am+Coming+From+Your+Repo+Miss+Helena" target="blank"><img align="center" src="https://i.imgur.com/URkrOnx.png" alt="kyrie.baran" height="200" width="200" /></a>
-</p>
+
 
 ## Setup
 <div align="center"> 
