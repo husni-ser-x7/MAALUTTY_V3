@@ -26,9 +26,9 @@ WhatsAlexa.addCommand({pattern: 'bot', fromMe: whb, dontAddCommandList: true}, (
 
     const buttons = [
 
-        {buttonId: 'id1', buttonText: {displayText: 'i am fine 🥰'}, type: 1},
+        {buttonId: 'id1', buttonText: {displayText: 'I Am Fine 🥰'}, type: 1},
 
-        {buttonId: 'id2', buttonText: {displayText: 'Do you like Bot'}, type: 1},
+        {buttonId: 'id2', buttonText: {displayText: 'Anthada Fear Aayo Nee😌'}, type: 1},
 
         {buttonId: 'id3', buttonText: {displayText: 'Hii'}, type: 1}
 
