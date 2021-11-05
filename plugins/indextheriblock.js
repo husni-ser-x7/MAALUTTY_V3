@@ -10,7 +10,7 @@ const Config = require('../config')
 
 // Inbox Block System
 // This Plugins By Hisham Muhammed 
-const INBO1 = "_~~~••• AMALSER_V2 •••~~~_* \n\n\n *i am blocking you.* \n\n *REASON:THERI ITTATH KOND🖐🏻🖐🏻"
+const INBO1 = "_~~~••• MISS HELENA •••~~~_* \n\n\n *i am blocking you.* \n\n *REASON:EDA MWONE DONT USE BAD WORD N8NNE NJAN REMOVE AAKUKAYAAN THERI ITTATH KOND* 🖐🏻🖐🏻"
  if (Config.INBO1 == 'true') {
 Hisham.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true }, (async (message, match) => {
         let regexb1ichu = new RegExp('thayoli')
