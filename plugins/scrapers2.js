@@ -137,7 +137,7 @@ if (config.WORKTYPE == 'private') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Owned by Amal*' , MessageType.text, { quoted: message.data });
+            await message.client.sendMessage(message.jid,'*Owned by Ameen,Rafi*' , MessageType.text, { quoted: message.data });
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text, { quoted: message.data });
@@ -244,7 +244,7 @@ else if (config.WORKTYPE == 'public') {
 	msg += 'Production : ' + json.Production + '\n\n';
 	msg += 'imdbRating : ' + json.imdbRating + '\n\n';
 	msg += 'imdbVotes  : ' + json.imdbVotes + '```';
-        msg += 'link       : ' + json.link + '\n*You could get requested movies from here*\n\nhttps://t.me/malayalam_rocker_s';
+        msg += 'link       : ' + json.link + '\n*You could get requested movies from here*\n\n💖 *https://t.me/SR_MOVIE_GROUP_1* 💖';
 	await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 }));
 
@@ -282,7 +282,7 @@ else if (config.WORKTYPE == 'public') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Owned by Amal*' , MessageType.text, { quoted: message.data });
+            await message.client.sendMessage(message.jid,'*Owned by Ameen,Rafi*' , MessageType.text, { quoted: message.data });
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text, { quoted: message.data });
