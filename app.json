@@ -17,7 +17,7 @@
             "required": false
         },
          "YT_PASSWORD": {
-            "description": "Password is afamk type it in here.",
+            "description": "Password is afamk type it in here. Password afamk എന്ന് തന്നെ അടിക്കുക അല്ലേൽ ബോട്ട് error aavum",
             "required": true
         },
         "LANGUAGE": {
