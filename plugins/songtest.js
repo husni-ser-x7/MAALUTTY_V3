@@ -1,4 +1,18 @@
-    Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SING_DESC}, (async (message, match) => { 
+ 
+const Asena = require('../events');
+const {MessageType} = require('@adiwajshing/baileys');
+const got = require('got');
+const axios = require('axios');
+const config = require('../config');
+const LOAD_ING = "*Searching your apk*"
+
+const Language = require('../language');
+const Lang = Language.getString('weather');
+
+if (config.WORKTYPE == 'public') {
+
+
+   Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SING_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SING,MessageType.text);    
         let arama = await yts(match[1]);
