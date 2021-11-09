@@ -80,9 +80,9 @@
         },
         "heroku": {
             "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "*Helo Master*\n*I Am Restarting Please Wait It Will Take 5 Minuit*",
+            "RESTART_MSG": "*Helo Master* 🥰\n\n*I Am Restarting Please Wait It Will Take 5 Minuit*",
             "SHUTDOWN_DESC": "Shutdown WhatsAsena",
-            "SHUTDOWN_MSG": "*Ok Bye I Am Sleeping Now* 💤\n*Shuting Down* ⚠️",
+            "SHUTDOWN_MSG": "*Ok Bye I Am Sleeping Now* 💤\n\n*Shuting Down* ⚠️",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -246,7 +246,7 @@
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
             "UPDATED": "*Updated ✅️*",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "*Wait Helena Restarting ✅️*",
+            "AFTER_UPDATE": "*Helo Master* 🥰\n\n*I Am Updated* _Please Wait Helena Restarting_ ✅️*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
