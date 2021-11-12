@@ -14,7 +14,7 @@ const Axios = require('axios')
 
 Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: 'search your song' , dontAddCommandList: true }, async (message, match) => {
 
-		await message.client.sendMessage(message.jid, '*Searching.....*' , MessageType.text, { quoted: message.data });
+		await message.client.sendMessage(message.jid, '*Processing.....*' , MessageType.text, { quoted: message.data });
 
 	
 
