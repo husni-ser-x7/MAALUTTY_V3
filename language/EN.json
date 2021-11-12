@@ -239,14 +239,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
+            "UPDATE": "*𝙷𝚎𝚕𝚎𝚗𝚊 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚕𝚢 𝚄𝚙𝚍𝚊𝚝𝚎𝚍 𝙽𝚘𝚝𝚑𝚒𝚗𝚐 𝙷𝚊𝚟𝚎 𝚃𝚘 𝚄𝚙𝚍𝚊𝚝𝚎*",
             "NEW_UPDATE": "*New update available for Bot!*\n\n*To update Bot give this command: .update now*\n\n*Join This Group Before Updating*\n*https://chat.whatsapp.com/DY648JIMzr9FwXpy1EsYhd*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Updating..💖",
+            "UPDATING": "𝚄𝚙𝚍𝚊𝚝𝚒𝚗𝚐....💖\n\n𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝.....",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
             "UPDATED": "*Updated ✅️*",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "*Helo Master* 🥰\n\n*I Am Updated* _Please Wait Helena Restarting_ ✅️*",
+            "AFTER_UPDATE": "𝙷𝚎𝚕𝚕𝚘 𝙼𝚊𝚜𝚝𝚎𝚛🥰\n\n𝙸 𝙰𝚖 𝚄𝚙𝚍𝚊𝚝𝚎𝚍 ✅ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝 𝙷𝚎𝚕𝚎𝚗𝚊 𝚁𝚎𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝙰𝚞𝚝𝚘𝚖𝚊𝚝𝚒𝚌𝚕𝚢 ✅️",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -304,8 +304,8 @@
         },
         "conventer": {
             "MP4TOAUDİO_DESC": "Converts video to sound.",
-            "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Converting Video to Audio..```",
+            "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Media!*",
+            "MP4TOAUDİO": "♻️ ```Converting Your Media to Audio..``` ♻️",
             "ANİM_STİCK": "Converts animated stickers to video.",
             "ANİMATE": "```Converting Animated Sticker To Video..```",
             "STİCKER_DESC": "Converts the sticker to a photo.",
