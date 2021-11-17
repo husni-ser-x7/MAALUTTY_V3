@@ -81,7 +81,7 @@ Asena.addCommand({pattern: 'slot ?(.*)', fromMe: true, desc: 'Mini game for you'
 		'❤️ : ❤️ : ❤️ Congratulation, you won! 👑'
 		]   
 const somtoy = sotoy[Math.floor(Math.random() * (sotoy.length))]
-await message.sendMessage(`[  🎰 | SLOTS ]\n-----------------\n🍋 : 🍌 : 🍍\n${somtoy}\n🍋 : 🍌 : 🍍\n[  🎰 | SLOTS ]`);
+await message.sendMessage(`[  🎰 | SLOTS ]\n-----------------\n💚 : ❤️ : 💝\n${somtoy}\n💚 : ❤️ : 💝\n[  🎰 | SLOTS ]`);
 }));
     
 Asena.addCommand({ pattern: 'qrcode ?(.*)', fromMe: true, desc: DESC_RAND }, (async (message, match) => {
@@ -150,7 +150,7 @@ await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), Me
 		'❤️ : ❤️ : ❤️ Congratulation, you won! 👑'
 		]   
 const somtoy = sotoy[Math.floor(Math.random() * (sotoy.length))]
-await message.sendMessage(`[  🎰 | SLOTS ]\n-----------------\n🍋 : 🍌 : 🍍\n${somtoy}\n🍋 : 🍌 : 🍍\n[  🎰 | SLOTS ]`);
+await message.sendMessage(`[  🎰 | SLOTS ]\n-----------------\n💚 : ❤️ : 💝\n${somtoy}\n💚 : ❤️ : 💝\n[  🎰 | SLOTS ]`);
 }));
     
 Asena.addCommand({ pattern: 'gura ?(.*)', fromMe: false, desc: DESC_GURA }, (async (message, match) => {
