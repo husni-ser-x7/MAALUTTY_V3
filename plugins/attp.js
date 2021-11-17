@@ -59,26 +59,26 @@ await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), Me
     
 Asena.addCommand({pattern: 'slot ?(.*)', fromMe: true, desc: 'Mini game for you'}, (async (message, match) => { 
         const sotoy = [
-		'🍊 : 🍒 : 🍐',
-		'🍒 : 🔔 : 🍊',
-		'🍇 : 🍒 : 🍐',
-		'🍊 : 🍋 : 🔔',
-		'🔔 : 🍒 : 🍐',
-		'🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',		
-		'🍐 : 🍒 : 🍋',
-		'🍐 : 🍐 : 🍐 Congratulation, you won! 👑',
-		'🍊 : 🍒 : 🍒',
-		'🔔 : 🔔 : 🍇',
-		'🍌 : 🍒 : 🔔',
-		'🍐 : 🔔 : 🔔',
-		'🍊 : 🍋 : 🍒',
-		'🍋 : 🍋 : 🍌',
-		'🔔 : 🔔 : 🍇',
-		'🔔 : 🍐 : 🍇',
-		'🔔 : 🔔 : 🔔 Congratulation, you won! 👑',
-		'🍒 : 🍒 : 🍒 Congratulation, you won! 👑',
-		'🍌 : 🍌 : 🍌 Congratulation, you won! 👑'
+		'💖 : 🖤 : 🤍',
+		'🖤 : 💙 : 💖',
+		'💜 : 🖤 : 🤍',
+		'💖 : 💚 : 💙',
+		'💙 : 🖤 : 🤍',
+		'💙 : 🖤 : 💖',
+        '💖 : 💚 : 💙',		
+		'🤍 : 🖤 : 💙',
+		'🤍 : 🤍 : 🤍 Congratulation, you won! 👑',
+		'💖 : 🖤 : 🖤',
+		'💙 : 💙 : 💜',
+		'❤️ : 🖤 : 💙',
+		'🤍 : 💙 : 💙',
+		'💖 : 💚 : 🖤',
+		'💚 : 💚 : ❤️',
+		'💙 : 💙 : 💜',
+		'💙 : 🤍 : 💜',
+		'💙 : 💙 : 💙 Congratulation, you won! 👑',
+		'🖤 : 🖤 : 🖤 Congratulation, you won! 👑',
+		'❤️ : ❤️ : ❤️ Congratulation, you won! 👑'
 		]   
 const somtoy = sotoy[Math.floor(Math.random() * (sotoy.length))]
 await message.sendMessage(`[  🎰 | SLOTS ]\n-----------------\n🍋 : 🍌 : 🍍\n${somtoy}\n🍋 : 🍌 : 🍍\n[  🎰 | SLOTS ]`);
@@ -128,26 +128,26 @@ await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), Me
     
     Asena.addCommand({pattern: 'slot ?(.*)', fromMe: false, desc: 'Mini game for you'}, (async (message, match) => { 
         const sotoy = [
-		'🍊 : 🍒 : 🍐',
-		'🍒 : 🔔 : 🍊',
-		'🍇 : 🍒 : 🍐',
-		'🍊 : 🍋 : 🔔',
-		'🔔 : 🍒 : 🍐',
-		'🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',		
-		'🍐 : 🍒 : 🍋',
-		'🍐 : 🍐 : 🍐 Congratulation, you won! 👑',
-		'🍊 : 🍒 : 🍒',
-		'🔔 : 🔔 : 🍇',
-		'🍌 : 🍒 : 🔔',
-		'🍐 : 🔔 : 🔔',
-		'🍊 : 🍋 : 🍒',
-		'🍋 : 🍋 : 🍌',
-		'🔔 : 🔔 : 🍇',
-		'🔔 : 🍐 : 🍇',
-		'🔔 : 🔔 : 🔔 Congratulation, you won! 👑',
-		'🍒 : 🍒 : 🍒 Congratulation, you won! 👑',
-		'🍌 : 🍌 : 🍌 Congratulation, you won! 👑'
+		'💖 : 🖤 : 🤍',
+		'🖤 : 💙 : 💖',
+		'💜 : 🖤 : 🤍',
+		'💖 : 💚 : 💙',
+		'💙 : 🖤 : 🤍',
+		'💙 : 🖤 : 💖',
+        '💖 : 💚 : 💙',		
+		'🤍 : 🖤 : 💚',
+		'🤍 : 🤍 : 🤍 Congratulation, you won! 👑',
+		'💖 : 🖤 : 🖤',
+		'💙 : 💙 : 💜',
+		'❤️ : 🖤 : 💙',
+		'🤍 : 💙 : 💙',
+		'💖 : 💚 : 🖤',
+		'💚 : 💚 : ❤️',
+		'💙 : 💙 : 💜',
+		'💙 : 🤍 : 💜',
+		'💙 : 💙 : 💙 Congratulation, you won! 👑',
+		'🖤 : 🖤 : 🖤 Congratulation, you won! 👑',
+		'❤️ : ❤️ : ❤️ Congratulation, you won! 👑'
 		]   
 const somtoy = sotoy[Math.floor(Math.random() * (sotoy.length))]
 await message.sendMessage(`[  🎰 | SLOTS ]\n-----------------\n🍋 : 🍌 : 🍍\n${somtoy}\n🍋 : 🍌 : 🍍\n[  🎰 | SLOTS ]`);
