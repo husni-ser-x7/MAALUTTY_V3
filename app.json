@@ -68,7 +68,7 @@
         "LOGO_NAME": {
             "description": "Set the logo list name",
             "required": true,
-            "value": "Amalser"
+            "value": "Miss Helena"
         },
         "WEL_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
