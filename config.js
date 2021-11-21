@@ -36,6 +36,7 @@ module.exports = {
     RAFI: process.env.BUTTON_TWO === undefined ? 'Hii' : process.env.BUTTON_TWO,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
+    LOGO_NAME: process.env.LOGO_NAME === undefined ? 'Miss Helena' : process.env.LOGO_NAME,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     INBO1: process.env.INBO_BLOCK === undefined ? 'true' : process.env.INBO_BLOCK,
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
