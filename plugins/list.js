@@ -24,6 +24,9 @@ Asena.addCommand({pattern: 'list', fromMe: false, desc: 'command help menu'}, (a
 🎗️ .xmedia
 💖 It is a plugin with more than 25 media tools._ 
 
+🎗️ .audio command
+💖 Bot send all bgm commands 
+
 🎗️ .ownercmnd
 💖 set of commands for bot user or sudo_
 
