@@ -173,6 +173,15 @@
             "required": false,
             "value": "default"
         },
+        "NUMBER": {
+            "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
+            "required": false,
+            "value": "919605741366"
+        },
+        "DEPLOYER": {
+            "description": "enter your name here",
+            "required": false
+        },
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
