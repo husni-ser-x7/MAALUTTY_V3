@@ -110,7 +110,7 @@
             "required": true,
             "value": "^[.!;]"
         },
-        "TALKING_PINKY": {
+        "TALKING_HELENA": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
             "value": "false"
