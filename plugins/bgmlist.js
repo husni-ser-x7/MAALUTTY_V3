@@ -8,7 +8,7 @@ const config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
-Asena.addCommand({pattern: 'audio list', fromMe: false, desc: 'command help menu'}, (async (message, match) => {
+Asena.addCommand({pattern: 'audio command', fromMe: false, desc: 'command help menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -20,6 +20,12 @@ Asena.addCommand({pattern: 'audio list', fromMe: false, desc: 'command help menu
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, contextInfo: {mentionedJid: message.mention}, caption: `
    ` + config.LOGO_NAME + `
+
+𝐌𝐈𝐒𝐒 𝐇𝐄𝐋𝐄𝐍𝐀 𝐁𝐆𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒
+
+𝐁𝐆𝐌 𝐎𝐍𝐄 
+
+👇👇👇👇
 
 💎 Sinan
 
@@ -422,6 +428,10 @@ Asena.addCommand({pattern: 'audio list', fromMe: false, desc: 'command help menu
 💎 Sad
 
 💎 Ayn
+
+𝐌𝐎𝐑𝐄 𝐁𝐆𝐌 𝐈𝐒 𝐂𝐎𝐌𝐈𝐍𝐆 𝐒𝐎𝐎𝐍💖
+
+𝐁𝐘 𝐌𝐈𝐒𝐒 𝐇𝐄𝐋𝐄𝐍𝐀
 `}) 
 
 }));
