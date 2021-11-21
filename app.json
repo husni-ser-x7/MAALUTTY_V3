@@ -144,10 +144,6 @@
             "required": false,
             "value": "default"
         },
-        "DEPLOYER": {
-            "description": "enter your name here",
-            "required": false
-        },
         "TAG_HEADER": {
             "description": "Heading when taging all",
             "required": false,
