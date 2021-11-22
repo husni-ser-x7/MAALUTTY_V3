@@ -33,7 +33,7 @@
         "OWNER_NAME": {
             "description": "Fill your name in here. it will show your name in .owner command reply",
             "required": true,
-            "value": "Rafi"
+            "value": "Rafi💖"
         },
         "AUTO_STICKER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
