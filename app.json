@@ -111,7 +111,7 @@
             "required": true,
             "value": "^[.!;]"
         },
-        "TALKING_HELENA": {
+        "CHAT_BOT": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
             "value": "false"
