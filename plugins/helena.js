@@ -26,11 +26,11 @@ WhatsAlexa.addCommand({pattern: 'bot', fromMe: whb, dontAddCommandList: true}, (
 
     const buttons = [
 
-        {buttonId: 'id1', buttonText: {displayText: 'I Am Fine 🥰'}, type: 1},
+        {buttonId: 'id1', buttonText: {displayText: 'I Am Fine 🥰  \n\n\nOk Boshh😌😂'}, type: 1},
 
-        {buttonId: 'id2', buttonText: {displayText: 'Anthada Fear Aayo Nee😌'}, type: 1},
+        {buttonId: 'id2', buttonText: {displayText: 'Ooh Pettenn Onn Fear Aayi😐   \n\n\nFear Aavanda Ithokke Ente Oorooo Kalikal Allee🤭🌚'}, type: 1},
 
-        {buttonId: 'id3', buttonText: {displayText: 'Hii'}, type: 1}
+        {buttonId: 'id3', buttonText: {displayText: 'Hii    \n\n\nAnthadaa🐦'}, type: 1}
 
       ]
 
@@ -38,7 +38,7 @@ WhatsAlexa.addCommand({pattern: 'bot', fromMe: whb, dontAddCommandList: true}, (
 
       const buttonMessage = {
 
-          contentText: "Hi How Are You ?",
+          contentText: "Hi Enthokke Und Bheei Chugam Thanne Allee? 😆",
 
           footerText: 'owner Rafi,Ameen ©',
 
