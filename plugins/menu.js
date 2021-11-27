@@ -32,7 +32,39 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
        
        const button = {
         buttonText: '𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘',
-        description: "❣︎ ꧁𓂸𝗠𝗶𝘀𝘀 ✰ 𝗛𝗲𝗹𝗲𝗻𝗮𓂸꧂ ❣︎",
+        description: "ʜɪ ʙʀᴏ ᴛʜɪs ɪs ʙᴏᴛ ᴍᴇɴᴜ
+
+     ʜɪ ʙʀᴏ  
+
+   ╭───────────────♫
+
+   ╞ᴄʀᴇᴀᴛᴏʀ⟼ᴀᴍᴇᴇɴ,ʀᴀғɪ
+
+   ┃
+
+   ╞➫ᴠᴇʀsɪᴏɴ⟼1.0
+
+   ┃
+
+   ╞➫ʙᴏᴛɴᴀᴍᴇ⟼𝐌𝐈𝐒𝐒 𝐇𝐄𝐋𝐄𝐍𝐀
+
+   ┃
+
+   ╞➫ᴘʀᴇғɪx⟼(ᴍᴜʟᴛɪ ᴘʀᴇғɪx)
+
+   ┃
+
+   ╞➫ᴍᴏᴅᴇ⟼ sᴇʟғ ɴᴏᴡ 
+
+   ┃
+
+   ╞➫ᴏᴡɴᴇʀ⟼ wa.me/917994909899 , wa.me/919605741366 
+
+    ━━━━━━━━━━━━━━━━━━━           
+
+ 
+
+  ➤ ʜɪ ʙʀᴏ  ᴄʟɪᴄᴋ ᴍᴇɴᴜ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ🌚",
         sections: sections,
         listType: 1
        }
