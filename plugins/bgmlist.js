@@ -29,7 +29,8 @@ Asena.addCommand({pattern: 'audio command', fromMe: false, desc: 'send all bgm c
 𝐁𝐆𝐌 𝐎𝐍𝐄 
 
 👇👇👇👇
-
+💎 ☮︎ Food 𖣘
+➪➪➪➪➪➪➪➪➪➪➪
 💎 ☮︎ Sinan 𖣘
 ➪➪➪➪➪➪➪➪➪➪➪
 💎 ☮︎ Dud 𖣘
