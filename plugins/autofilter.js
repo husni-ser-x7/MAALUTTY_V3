@@ -10,11 +10,11 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-asena.addCommand({pattern: 'rafi', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+asena.addCommand({pattern: 'nijin', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
     var r_text = new Array ();
 
-    r_text[1] = "𝙸 𝙺𝚗𝚘𝚠 𝙷𝚎 𝙸𝚜 𝙼𝚢 𝙾𝚠𝚗𝚎𝚛";
+    r_text[1] = "ɴɪᴊɪɴ 𝙸𝚜 𝙼𝚢 𝙾𝚠𝚗𝚎𝚛";
 
     var i = Math.floor(2*Math.random())
 
@@ -24,11 +24,11 @@ asena.addCommand({pattern: 'rafi', fromMe: true, deleteCommand: true, desc: GM,}
 
     }));
 
-asena.addCommand({pattern: 'ameen', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
+asena.addCommand({pattern: 'husni', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
 
         var r_text = new Array ();
 
-        r_text[1] = "𝙸 𝙺𝚗𝚘𝚠 𝙷𝚎 𝙸𝚜 𝙼𝚢 𝙰𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚍";
+        r_text[1] = "ʜᴜsɴɪ 𝙸𝚜 𝙼𝚢 𝙾𝚠𝚗𝚎𝚛";
 
         var i = Math.floor(2*Math.random())
 
@@ -42,11 +42,11 @@ asena.addCommand({pattern: 'ameen', fromMe: true, deleteCommand: true, desc: GN,
 
     if (Config.WORKTYPE == 'public') {
 
-        asena.addCommand({pattern: 'rafi', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+        asena.addCommand({pattern: 'nijin', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
             var r_text = new Array ();
 
-            r_text[1] = "𝙸 𝙺𝚗𝚘𝚠 𝙷𝚎 𝙸𝚜 𝙼𝚢 𝙲𝚛𝚎𝚊𝚝𝚘𝚛🥰";
+            r_text[1] = "ɴɪᴊɪɴ 𝙸𝚜 𝙼𝚢 𝙲𝚛𝚎𝚊𝚝𝚘𝚛🥰";
 
             var i = Math.floor(2*Math.random())
 
@@ -56,11 +56,11 @@ asena.addCommand({pattern: 'ameen', fromMe: true, deleteCommand: true, desc: GN,
 
             }));
 
-        asena.addCommand({pattern: 'ameen', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
+        asena.addCommand({pattern: 'husni', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
 
                 var r_text = new Array ();
 
-                r_text[1] = "𝙸 𝙺𝚗𝚘𝚠 𝙷𝚎 𝙸𝚜 𝙼𝚢 𝙰𝚜𝚜𝚒𝚜𝚝𝚎𝚗𝚍";
+                r_text[1] = "ʜᴜsɴɪ 𝙸𝚜 𝙼𝚢 𝙾𝚠𝚗𝚎𝚛";
           
                 var i = Math.floor(2*Math.random())
 
@@ -69,20 +69,6 @@ asena.addCommand({pattern: 'ameen', fromMe: true, deleteCommand: true, desc: GN,
                     message.jid,(r_text[i]), MessageType.text);
 
                 }));    
-
-                asena.addCommand({pattern: 'helena', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
-
-                    var r_text = new Array ();
-
-                    r_text[1] = "𝚈𝚎𝚜 𝚃𝚎𝚕𝚕 𝙼𝚎 𝙷𝚘𝚠 𝙲𝚊𝚗 𝙸 𝙷𝚎𝚕𝚙 𝚈𝚘𝚞";
-
-                    var i = Math.floor(2*Math.random())
-
-                    await message.client.sendMessage(
-
-                        message.jid,(r_text[i]), MessageType.text);
-
-                    }));
 
 
 }
