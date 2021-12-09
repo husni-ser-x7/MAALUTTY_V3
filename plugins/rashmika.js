@@ -426,7 +426,7 @@ var i = Math.floor(200*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '𝐌𝐚𝐝𝐞 𝐁𝐲 𝐀𝐦𝐞𝐞𝐧 𝐒𝐞𝐫, 𝐑𝐚𝐟𝐢'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '𝐌𝐚𝐝𝐞 𝐁𝐲 Maalutty'})
 
     }));
 
@@ -842,7 +842,7 @@ r_text[200] = "https://i.ibb.co/qjySbDs/rashmika-mandanna-20200304-0051.jpg";
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '𝐌𝐚𝐝𝐞 𝐁𝐲 𝐀𝐦𝐞𝐞𝐧𝐒𝐞𝐫,𝐑𝐚𝐟𝐢'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '𝐌𝐚𝐝𝐞 𝐁𝐲 Maalutty'})
 
     }));
 
