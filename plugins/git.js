@@ -1,47 +1,47 @@
-const asena = require('../events');
+const Maalutty = require('../events');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const axios = require('axios');
 
-const {MessageType} = require('@adiwajshing/baileys');
+const Language = require('../language');
+const Lang = Language.getString('wallpaper');
 
-const GM = "it sends bot deploying link"
-
-const GN = "it sends bot deploying link"
-
-const Config = require('../config');
-
-if (Config.WORKTYPE == 'private') {
-
-asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+Maalutty.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
     var r_text = new Array ();
-
-    r_text[0] = "💖 *To check update .update* ✅\n💖 *To update Bot .update now✅ *\n\n🎗️ *𝐆𝐢𝐭𝐡𝐮𝐛 𝐋𝐢𝐧𝐤 : https://github.com/Luciferking1/Miss-Helenaa✅ *\n\n🎗️ *𝐀𝐮𝐝𝐢𝐨 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : https://github.com/Luciferking1/Miss-Helenaa/tree/master/uploads* ✅\n\n* 🎗️𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : https://github.com/Luciferking1/Miss-Helenaa/tree/master/Amalser* ✅"; 
- 
+    
+    
+    r_text[0] = "https://i.ibb.co/3ypJ8QW/20211209-194953.jpg";
+    
+    
     var i = Math.floor(1*Math.random())
 
-    await message.client.sendMessage(
+    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-        message.jid,(r_text[i]), MessageType.text);
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `❤️Maalutty_v2💙
 
-    }));
-    
+*bot making video* : https://youtu.be/jF8wF1KdyOw
 
-    }
 
-    if (Config.WORKTYPE == 'public') {
+*owner number husni* :https://wa.me/917025868709.
+            
 
-        asena.addCommand({pattern: 'git', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+*owner number Nijin* :https://wa.me/919605385305.
 
-            var r_text = new Array ();
 
-                 r_text[0] = "💖 *To check update .update* ✅\n\n💖 *To update Bot .update now* ✅\n\n\n🎗️ *𝐆𝐢𝐭𝐡𝐮𝐛 𝐋𝐢𝐧𝐤 : https://github.com/Luciferking1/Miss-Helenaa* ✅\n\n🎗️ *𝐀𝐮𝐝𝐢𝐨 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : https://github.com/Luciferking1/Miss-Helenaa/tree/master/uploads* ✅\n\n* 🎗️𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : https://github.com/Luciferking1/Miss-Helenaa/tree/master/Amalser* ✅"; 
+*owner id instagram* :https://instagram.com/_husni_ser_.
 
-                     var i = Math.floor(1*Math.random())
 
-                         await message.client.sendMessage(
+*github* : https://github.com/nijin-husni/Maalutty.
 
-                               message.jid,(r_text[i]), MessageType.text);
 
-    }));
-    
+*audio commands* :https://github.com/nijin-husni/uploads/tree/main/bgm.
 
-   }
+
+*sticker commands* :https://github.com/nijin-husni/uploads/tree/main/stickers.
+
+❤️Maalutty💙
+■□ ~NIJIN~ AND ~HUSNI~■□ 
+
+`}) 
+
+}));
