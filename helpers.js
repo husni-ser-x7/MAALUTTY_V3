@@ -1,5 +1,5 @@
 /*
-# Copyright (C) 2020 MuhammedKpln.
+# Copyright (C) 2020 nijin-husni.
 #
 # WhatsAsena is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *Miss Helena*:  ```" + msg + "```"
+    return "✅ *Maalutty*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *Miss Helena*:  ```" + msg + "```"
+    return "🛑 *Maalutty*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *Miss Helena*:  ```" + msg + "```"
+    return "⏺️ *Maalutty*:  ```" + msg + "```"
 }
 
 
