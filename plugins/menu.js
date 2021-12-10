@@ -10,7 +10,7 @@ Maalutty.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, 
     var r_text = new Array ();
     
     
-    r_text[0] = "https://i.ibb.co/JHqKPX5/Screenshot-2021-11-26-22-39-45-1.png";
+    r_text[0] = "https://i.ibb.co/3ypJ8QW/20211209-194953.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -27,11 +27,11 @@ Maalutty.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, 
 
     var language = ''
 
-if (hrs < 10) wish = '*ʀᴀᴀᴠɪʟᴀᴛʜᴀɴɴᴇ ᴘʜᴏɴᴇ ᴇᴅᴜᴛʜᴜ ᴀʟʟᴇ🤪*'
-if (hrs >= 10 && hrs <= 13) wish = '*ᴘʜᴏɴᴍᴍᴇ ᴋᴀʟɪᴋᴋᴀᴀᴅᴇ ᴘᴏʏ ᴋᴏᴄʜᴜᴛᴠ ᴋᴀᴀɴᴇᴅᴀ😂*'
-if (hrs >= 13 && hrs <= 16) wish = '*ᴄʜᴏʀ ᴋᴀᴢʜɪᴄʜᴏ🤓*'
-if (hrs >= 16 && hrs <= 19) wish = '*ᴄʜᴀʏᴀ ᴋᴜᴅɪᴄʜᴏ😋*'
-if (hrs >= 19 && hrs <= 24) wish = '*ɴɪɢʜᴛɪʟ ᴘʜᴏɴᴇ ᴋᴀʟɪᴄʜᴜ ᴋᴜᴛʜɪʀɪᴋᴀᴀɴᴏ😁*'
+if (hrs < 10) wish = '*ɢᴏᴏᴅ ᴍʀɴɪɴɢ ᴠʀᴏ🌅*'
+if (hrs >= 10 && hrs <= 13) wish = '*ʜᴇʟʟᴏ👋*'
+if (hrs >= 13 && hrs <= 16) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ ᴠʀᴏ🌇*'
+if (hrs >= 16 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ🏝️*'
+if (hrs >= 19 && hrs <= 24) wish = '*ᴍɪᴅ ɴɪɢʜᴛ🌃*'
 
 if (config.FULLEVA == 'true') eva = 'On'
 if (config.FULLEVA == 'false') eva = 'Off'
