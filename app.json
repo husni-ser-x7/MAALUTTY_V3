@@ -101,8 +101,8 @@
             "required": true,
             "value": "^[.!;]"
         },
-        "CHAT_BOT": {
-            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+        "TALKING_MAALUTTY": {
+            "description": "Turn your account into a talking maalutty!",
             "required": true,
             "value": "false"
         },
