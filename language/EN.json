@@ -29,8 +29,8 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "*I am not admin in this group!*",
-            "BANNED": "kicked out of the group!",
+            "IM_NOT_ADMIN": "*I am not admin in this group!🥺*",
+            "BANNED": "kicked out of the group!😎",
             "GIVE_ME_USER": "*Give me a user!*",
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
@@ -79,9 +79,9 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
+            "RESTART_DESC": "Restart Maalutty",
             "RESTART_MSG": "*Helo Master* 🥰\n\n*I Am Restarting Please Wait It Will Take 5 Minuit*",
-            "SHUTDOWN_DESC": "Shutdown WhatsAsena",
+            "SHUTDOWN_DESC": "Shutdown Maalutty",
             "SHUTDOWN_MSG": "*Ok Bye I Am Sleeping Now* 💤\n\n*Shuting Down* ⚠️",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
@@ -170,7 +170,7 @@
         },
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
-            "NEED_PHOTO": "*Give me a photo!*",
+            "NEED_PHOTO": "*Give me a photo!☺️*",
             "NO_API_KEY": "*You don't have an API key!*\nYou can get it here: remove.bg.",
             "RBGING": "```Removing background...```"
         },
@@ -217,7 +217,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Wait Your Media Converting To Sticker💖```"
+            "DOWNLOADING": "```Wait Your Media Converting To Sticker is Maalutty💖```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -239,14 +239,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*𝙷𝚎𝚕𝚎𝚗𝚊 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚕𝚢 𝚄𝚙𝚍𝚊𝚝𝚎𝚍 𝙽𝚘𝚝𝚑𝚒𝚗𝚐 𝙷𝚊𝚟𝚎 𝚃𝚘 𝚄𝚙𝚍𝚊𝚝𝚎*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\n*To update Bot give this command: .update now*\n\n*Join This Group Before Updating*\n*https://chat.whatsapp.com/FJZ00oZignw25kjLELXWKu*\n\nChanges:\n```",
+            "UPDATE": "*ᴍᴀᴀʟᴜᴛᴛʏ ɪs ᴀʟʀᴇᴀᴅʏ ᴜᴘᴅᴀᴛᴇᴅ ʙʀᴏ💝*",
+            "NEW_UPDATE": "*New update available for Maalutty!*\n\n*To update Bot give this command: .update now*\n\n*Ask support group and update*\n*https://chat.whatsapp.com/KJWUNpT7lBzDuPGnlV69Vp*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "𝚄𝚙𝚍𝚊𝚝𝚒𝚗𝚐....💖\n\n𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝.....",
+            "UPDATING": "ᴍᴀᴀʟᴜᴛᴛʏ ᴜᴘᴅᴀᴛɪɴɢ...ᴘʟs ᴡ8 ʙʀᴏ💞",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*Updated ✅️*",
+            "UPDATED": "*successful Update maalutty😍*",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "𝙷𝚎𝚕𝚕𝚘 𝙼𝚊𝚜𝚝𝚎𝚛🥰\n\n𝙸 𝙰𝚖 𝚄𝚙𝚍𝚊𝚝𝚎𝚍 ✅ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝 𝙷𝚎𝚕𝚎𝚗𝚊 𝚁𝚎𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝙰𝚞𝚝𝚘𝚖𝚊𝚝𝚒𝚌𝚕𝚢 ✅️",
+            "AFTER_UPDATE": "ᴍᴀᴀʟᴜᴛᴛʏ ʀᴇsᴛᴀʀᴛɪɴɢ... ᴘʟs ᴡ8 ʙʀᴏ💞",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -303,9 +303,9 @@
             "URL": "Shorten the long link."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "Converts video to sound.",
+            "MP4TOAUDİO_DESC": "maalutty Converts video to audio.",
             "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Media!*",
-            "MP4TOAUDİO": "♻️ ```Converting Your Media to Audio..``` ♻️",
+            "MP4TOAUDİO": "♻️ ```maalutty Converting Your Media to Audio..``` ♻️",
             "ANİM_STİCK": "Converts animated stickers to video.",
             "ANİMATE": "```Converting Animated Sticker To Video..```",
             "STİCKER_DESC": "Converts the sticker to a photo.",
@@ -466,7 +466,7 @@
             "SAVE_USAGE": "Reply a message and type .save or just use .save <Your note> without replying",
             "REPLY": "Please provide a note or reply to a message.",
             "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
-            "UNSUCCESSFUL": "Could not add note, please try again later or contact WhatsAsena developers.",
+            "UNSUCCESSFUL": "Could not add note, please try again later or contact Maalutty developers.",
             "DELETE_USAGE": "Deletes *all* your saved notes.",
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
