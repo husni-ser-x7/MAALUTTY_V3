@@ -25,7 +25,7 @@ Maalutty.addCommand({ pattern: 'maaluaudio ?(.*)', fromMe: true, desc: "Forward 
            "surface" : 1,
            "message": "◄━⦁💝 MAALUTTY_V3💝⦁━►",
            "orderTitle": "",
-           "thumbnail": buff.buffer,
+           "thumbnail": config.LG_LOGO,
            "sellerJid": '0@s.whatsapp.net' 
         }
       }
