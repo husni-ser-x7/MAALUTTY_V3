@@ -17,7 +17,7 @@ Maalutty.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (mess
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `❤️Maalutty_v2💙
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `◄━⦁💝 MAALUTTY_V3💝⦁━►
 
 *bot making video* : https://youtu.be/jF8wF1KdyOw
 
@@ -39,7 +39,7 @@ Maalutty.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (mess
 
 *sticker commands* :https://github.com/nijin-husni/uploads/tree/main/stickers.
 
-❤️Maalutty💙
+◄━⦁💝 MAALUTTY_V3💝⦁━►
 ■□ ~NIJIN~ AND ~HUSNI~■□ 
 
 `}) 
