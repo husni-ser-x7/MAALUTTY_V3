@@ -18,7 +18,7 @@ else mode = 'ғᴏʀᴡᴀʀᴅᴇᴅ ʙʏ ' + Config.PLK
 
             const raashi = {
 
-                  key: {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "ZARA MWOL", "caption": mode , 'jpegThumbnail': fs.readFileSync('./media/image/logo.jpg')}}
+                  key: {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "MAALUTTY", "caption": mode , 'jpegThumbnail': fs.readFileSync('./media/image/logo.jpg')}}
 
              
 
