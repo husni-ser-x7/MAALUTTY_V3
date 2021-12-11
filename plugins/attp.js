@@ -1,197 +1,84 @@
-const Asena = require('../events');
+const Maalutty = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
-
-const KeyLol = ['UAkOKdct','tJgWUsGV', 'gZuwdayT', 'vw6q6fEr', 'S6bEnCiS', 'zekais', 'FMoh8lhs']
-const Lol = KeyLol[Math.floor(Math.random() * KeyLol.length)]
-
-const DESC_BOB = "Make text on sponge bob's board"
-
-const DESC_RIP = "Please provide an image link for the effect to be applied (Apply death effect)"
-
-const DESC_GURA = "Create gawr gura text"
-
-const DESC_RAND = "Create random texts"
-
 const Language = require('../language');
 const Lang = Language.getString('ttp');
 
-
 if (Config.WORKTYPE == 'private') {
-    Asena.addCommand({ pattern: 'ttp ?(.*)', fromMe: true, desc: Lang.TTP_DESC }, (async (message, match) => {
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-        var uri = encodeURI(match[1])
+
+    Maalutty.addCommand({ pattern: 'ttp ?(.*)', fromMe: true, desc: Lang.TTP_DESC }, (async (message, match) => {
+
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text, {contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+        
+        var uri = encodeURI(match[1]);
+
         var ttinullimage = await axios.get('https://api.xteam.xyz/ttp?file&text=' + uri, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by publicbot' })
+
+        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Maalutty*', contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+
     }));
-    Asena.addCommand({ pattern: 'attp ?(.*)', fromMe: true, desc: Lang.ATTP_DESC }, (async (message, match) => {
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-        var uri = encodeURI(match[1])
+
+    Maalutty.addCommand({ pattern: 'attp ?(.*)', fromMe: true, desc: Lang.ATTP_DESC }, (async (message, match) => {
+
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text, {contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+        
+        var uri = encodeURI(match[1]);
+
         var ttinullimage = await axios.get('https://api.xteam.xyz/attp?file&text=' + uri, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.sticker, { mimetype: Mimetype.webp })
+
+        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.sticker, { mimetype: Mimetype.webp, contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+
     }));
-Asena.addCommand({ pattern: 'bob ?(.*)', fromMe: true, desc: DESC_BOB }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://zekais-api.herokuapp.com/sbburn?text=${uria}&apikey=${Lol}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
- Asena.addCommand({ pattern: 'gura ?(.*)', fromMe: true, desc: DESC_GURA }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/bot/gura?apikey=hardianto&nama=${uria}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-Asena.addCommand({ pattern: 'harta ?(.*)', fromMe: true, desc: DESC_RAND }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/harta?query=${uria}&apikey=hardianto`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-Asena.addCommand({ pattern: 'rip ?(.*)', fromMe: true, desc: DESC_RIP }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/rip?image=${uria}&apikey=hardianto`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
     
-Asena.addCommand({pattern: 'slot ?(.*)', fromMe: true, desc: 'Mini game for you'}, (async (message, match) => { 
-        const sotoy = [
-		'💖 : 🖤 : 🤍',
-		'🖤 : 💙 : 💖',
-		'💜 : 🖤 : 🤍',
-		'💖 : 💚 : 💙',
-		'💙 : 🖤 : 🤍',
-		'💙 : 🖤 : 💖',
-        '💖 : 💚 : 💙',		
-		'🤍 : 🖤 : 💙',
-		'🤍 : 🤍 : 🤍 Congratulation, you won! 👑',
-		'💖 : 🖤 : 🖤',
-		'💙 : 💙 : 💜',
-		'❤️ : 🖤 : 💙',
-		'🤍 : 💙 : 💙',
-		'💖 : 💚 : 🖤',
-		'💚 : 💚 : ❤️',
-		'💙 : 💙 : 💜',
-		'💙 : 🤍 : 💜',
-		'💙 : 💙 : 💙 Congratulation, you won! 👑',
-		'🖤 : 🖤 : 🖤 Congratulation, you won! 👑',
-		'❤️ : ❤️ : ❤️ Congratulation, you won! 👑'
-		]   
-const somtoy = sotoy[Math.floor(Math.random() * (sotoy.length))]
-await message.sendMessage(`[  🎰 | SLOTS ]\n-----------------\n💚 : ❤️ : 💝\n${somtoy}\n💚 : ❤️ : 💝\n[  🎰 | SLOTS ]`);
-}));
-    
-Asena.addCommand({ pattern: 'qrcode ?(.*)', fromMe: true, desc: DESC_RAND }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://api.zeks.me/api/qrencode?apikey=apivinz&text=${uria}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-    
-Asena.addCommand({ pattern: 'nulis ?(.*)', fromMe: true, desc: DESC_RAND }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://api.zeks.me/api/nulis?apikey=apivinz&text=${uria}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-    
-Asena.addCommand({ pattern: 'sand ?(.*)', fromMe: true, desc: DESC_RAND }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://api.zeks.me/api/sandw?apikey=apivinz&text=${uria}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
+    Maalutty.addCommand({pattern: 'emoji ?(.*)', fromMe: true, desc: Lang.EMOJI_DESC}, (async (message, match) => {
+
+      if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text, {contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+        
+      var uri = encodeURI(match[1]);
+  
+      var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=odsMYXx67ZhT38w5hp5mgRKO8En&emoji='+ uri, { responseType: 'arraybuffer' })
+  
+      await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made By Maalutty*', contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+  
+    }));
 }
 else if (Config.WORKTYPE == 'public') {
-    Asena.addCommand({ pattern: 'ttp ?(.*)', fromMe: false, desc: Lang.TTP_DESC }, (async (message, match) => {
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-        var uri = encodeURI(match[1])
+
+    Maalutty.addCommand({ pattern: 'ttp ?(.*)', fromMe: false, desc: Lang.TTP_DESC }, (async (message, match) => {
+
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text, {contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+        
+        var uri = encodeURI(match[1]);
+
         var ttinullimage = await axios.get('https://api.xteam.xyz/ttp?file&text=' + uri, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by publicbot' })
+
+        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Maalutty*', contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+
     }));
-    Asena.addCommand({ pattern: 'attp ?(.*)', fromMe: false, desc: Lang.ATTP_DESC }, (async (message, match) => {
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-        var uri = encodeURI(match[1])
+
+    Maalutty.addCommand({ pattern: 'attp ?(.*)', fromMe: false, desc: Lang.ATTP_DESC }, (async (message, match) => {
+
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text, {contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+        
+        var uri = encodeURI(match[1]);
+
         var ttinullimage = await axios.get('https://api.xteam.xyz/attp?file&text=' + uri, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.sticker, { mimetype: Mimetype.webp })
+
+        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.sticker, { mimetype: Mimetype.webp, contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+
     }));
     
-Asena.addCommand({ pattern: 'bob ?(.*)', fromMe: false, desc: DESC_BOB }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://zekais-api.herokuapp.com/sbburn?text=${uria}&apikey=${Lol}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-    
-    Asena.addCommand({pattern: 'slot ?(.*)', fromMe: false, desc: 'Mini game for you'}, (async (message, match) => { 
-        const sotoy = [
-		'💖 : 🖤 : 🤍',
-		'🖤 : 💙 : 💖',
-		'💜 : 🖤 : 🤍',
-		'💖 : 💚 : 💙',
-		'💙 : 🖤 : 🤍',
-		'💙 : 🖤 : 💖',
-        '💖 : 💚 : 💙',		
-		'🤍 : 🖤 : 💚',
-		'🤍 : 🤍 : 🤍 Congratulation, you won! 👑',
-		'💖 : 🖤 : 🖤',
-		'💙 : 💙 : 💜',
-		'❤️ : 🖤 : 💙',
-		'🤍 : 💙 : 💙',
-		'💖 : 💚 : 🖤',
-		'💚 : 💚 : ❤️',
-		'💙 : 💙 : 💜',
-		'💙 : 🤍 : 💜',
-		'💙 : 💙 : 💙 Congratulation, you won! 👑',
-		'🖤 : 🖤 : 🖤 Congratulation, you won! 👑',
-		'❤️ : ❤️ : ❤️ Congratulation, you won! 👑'
-		]   
-const somtoy = sotoy[Math.floor(Math.random() * (sotoy.length))]
-await message.sendMessage(`[  🎰 | SLOTS ]\n-----------------\n💚 : ❤️ : 💝\n${somtoy}\n💚 : ❤️ : 💝\n[  🎰 | SLOTS ]`);
-}));
-    
-Asena.addCommand({ pattern: 'gura ?(.*)', fromMe: false, desc: DESC_GURA }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/bot/gura?apikey=hardianto&nama=${uria}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-    
-Asena.addCommand({ pattern: 'harta ?(.*)', fromMe: false, desc: DESC_RAND }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/harta?query=${uria}&apikey=hardianto`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-    
-Asena.addCommand({ pattern: 'rip ?(.*)', fromMe: false, desc: DESC_RIP }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/rip?image=${uria}&apikey=hardianto`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-    
-Asena.addCommand({ pattern: 'qrcode ?(.*)', fromMe: false, desc: DESC_RAND }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://api.zeks.me/api/qrencode?apikey=apivinz&text=${uria}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-    
-Asena.addCommand({ pattern: 'nulis ?(.*)', fromMe: false, desc: DESC_RAND }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://api.zeks.me/api/nulis?apikey=apivinz&text=${uria}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
-    
-Asena.addCommand({ pattern: 'sand ?(.*)', fromMe: false, desc: DESC_RAND }, (async (message, match) => {
-if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-var uria = encodeURI(match[1])
-var ttinullimageh = await axios.get(`https://api.zeks.me/api/sandw?apikey=apivinz&text=${uria}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
-}));
+    Maalutty.addCommand({pattern: 'emoji ?(.*)', fromMe: false, desc: Lang.EMOJI_DESC}, (async (message, match) => {
+
+      if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text, {contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+        
+      var uri = encodeURI(match[1]);
+  
+      var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=odsMYXx67ZhT38w5hp5mgRKO8En&emoji='+ uri, { responseType: 'arraybuffer' })
+  
+      await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made By Maalutty*', contextInfo: { forwardingScore: 49, isForwarded: true }, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "◄━⦁💝 MAALUTTY_V3💝⦁━►", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
+  
+    }));
 }
