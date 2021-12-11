@@ -35,7 +35,7 @@ Asena.addCommand({pattern: 'ask', fromMe: true}, (async (message, match) => {
 
 Asena.addCommand({pattern: 'infoask', fromMe: true}, (async (message, match) => {
 
-    await message.sendMessage("*Codded by Ameen And Rafi*\n*Seni seviyorum demenin güzel bir hali.*\n💻Usage: *.ask*")
+    await message.sendMessage("*Codded by Nijin and Husni*\n*Seni seviyorum demenin güzel bir hali.*\n💻Usage: *.ask*")
 
 }));
    
@@ -67,6 +67,6 @@ Asena.addCommand({pattern: 'love', fromMe: true}, (async (message, match) => {
 
 Asena.addCommand({pattern: 'infolove', fromMe: true}, (async (message, match) => {
 
-    await message.sendMessage("*Codded by Ameen And Rafi*\n*To say best way ı love you.*\n💻Usage: *.love*")
+    await message.sendMessage("*Codded by Nijin and Husni*\n*To say best way ı love you.*\n💻Usage: *.love*")
 
 }));
