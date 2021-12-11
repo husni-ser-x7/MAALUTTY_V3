@@ -1,4 +1,5 @@
- const Rashi = require('../events');
+ \*
+const Rashi = require('../events');
 
  const { MessageType, Mimetype } = require('@adiwajshing/baileys');
 
@@ -77,3 +78,4 @@ let id = match[1];
 });
 
 }));
+/*
