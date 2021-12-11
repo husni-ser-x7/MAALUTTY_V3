@@ -201,13 +201,13 @@ else if (Config.WORKTYPE == 'public') {
         doc_desc = 'CONVERT TO DOCUMENT AND ADD GIVEN NAME'
         plk = '```NAMING AND DOCIFYING```'
         afn = '```PLEASE REPLY TO A AUDIO```'
-        usge = '```.doc Helena *replace helena with desired name*```'
+        usge = '```.doc Maalutty *replace Maalutty with desired name*```'
     }
     if (Config.LANG == 'ML') {
         doc_desc = 'ഡോക്യുമെന്റിലേക്ക് പരിവർത്തനം ചെയ്യുകയും നൽകിയപേര് ചേർക്കുകയും ചെയ്യുക'
         afn = '```ഒരു ഓഡിയോയ്ക്ക് മറുപടി നൽകുക```'
         plk = '```ഡോക്യുമെന്റിലേക്ക് പരിവർത്തനം ചെയ്യുകയും പേര് നൽകുകയും ചെയ്യുന്നു```'
-        usge = '```.doc Helena```'
+        usge = '```.doc Maalutty```'
     }
     
      Asena.addCommand({pattern: 'doc ?(.*)', fromMe: false, desc: doc_desc , usage : usge}, (async (message, match) => { 
