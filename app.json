@@ -104,7 +104,7 @@
         "TALKING_MAALUTTY": {
             "description": "Turn your account into a talking maalutty!",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "NO_LOG": {
             "description": " Set true if you don't want to see error log.",
