@@ -2,7 +2,7 @@ const Maalutty = require("../Utilis/events");
 const { forwardOrBroadCast } = require("../Utilis/groupmute");
 const { getBuffer } = require('../Utilis/download');
 const { parseJid } = require("../Utilis/vote");
-// ◄━⦁💝 MAALUTTY_V3💝⦁━►
+// ◄━⦁MAALUTTY_V3⦁━►
 const url = 'https://i.ibb.co/YT0pW4x/Screenshot-2021-11-10-09-29-10-1-1.png'
 Maalutty.addCommand({ pattern: 'maaluaudio ?(.*)', fromMe: true, desc: "Forward replied msg." },
   async (message, match) => {
