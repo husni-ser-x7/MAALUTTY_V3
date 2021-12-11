@@ -1,5 +1,5 @@
 const fs = require('fs')
-const Asena = require('../events');
+const Maalutty = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
 const FilterDb = require('./sql/filters');
 const Config = require('../config')
@@ -9,7 +9,7 @@ const Language = require('../language');
 const Lang = Language.getString('filters');
 
 
-Asena.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC, dontAddCommandList: true}, (async (message, match) => {
+Maalutty.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC, dontAddCommandList: true}, (async (message, match) => {
     match = match[1].match(/[\'\"\â€œ](.*?)[\'\"\â€œ]/gsm);
 
     if (match === null) {
@@ -29,7 +29,7 @@ Asena.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC,
         await message.client.sendMessage(message.jid,Lang.FILTERED.format(match[0].replace(/['"]+/g, '')),MessageType.text);
     }
 }));
-Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, dontAddCommandList: true}, (async (message, match) => {
+Maalutty.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, dontAddCommandList: true}, (async (message, match) => {
     match = match[1].match(/[\'\"\â€œ](.*?)[\'\"\â€œ]/gsm);
     if (match === null) {
         return await message.client.sendMessage(message.jid,Lang.NEED_REPLY + '\n*Example:* ```.stop "hello"```',MessageType.text)
@@ -46,7 +46,7 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
     
 if (Config.GEAR == 'one') {  
     
-Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
+Maalutty.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if(Config.BGMFILTER){
             var uri = encodeURI(match[1])
         let banned = jid.find( Jid => Jid === message.jid);
@@ -60,7 +60,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgm/menti
         if (!!message.mention && message.mention[0] == '917994909899@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgm/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
-const array = ['Food','food','fud','Fud','Nee','nee','happy','Happy','Sinan','Dud','Photo','photo','fan','alive','Fan','Gd nyt','gd nyt','koi','Koi','vatt','Vatt','ara','Ara','name','Name','pinnalla','Pinnalla','Hai','Reply','reply','thall','Thall','Song','kozhi','Kozhi','I love you','line','Line','mass','Mass','arulle','Arulle','Mirash','mirash','Mirash bgm','Salman','Arshi','Ezra','ezra','nihal','Nihal', 'sufaid','Sufaid','jinn','Jinn','Feel','lub','Lub','foxy','Foxy','Music','music','CR7','Alan','Halo','Aysheri','aysheri','kooi','Kooi','Achumon','ith','ðŸ”¥','bye','para','Para','mentionameen','Khais','mukesh','Mukesh','Hlo','hlo','njan','Njan','muthe','Muthe','Xxxtentacion','alone','Alone','Converting','potta','welcome','Welcome','vannu','Vannu','Remove','kyat','rip','remix','Remix','Rip','Myr','dj','Dj','pever','Pever','Oo','XXXTENTACION','Love u','hate','Hate','Njan vannu','tto','Audio','audio','veno','xxxtentacion','Veno','nanban','Ayye','Ronaldo','ronaldo','Kundan','katha','hy','vaanam','Vaanam','Vanam','Ivan','ivan','Annan','annan','Thayoli','umbi','Umbi','Noob','Single','noob','single','Nanban','Achu','achu','Ok','Ameen','Shiva','ok','Enth','ameen','enth','nth','Edi','kundi','Kundi','Uff','Dey','Cr7','Poda','Poli','Pm','Plzz','girl','Oi','mp3','nirth','Nirth','good nyt','birthday','HBD','bdy','Birthday','Pattula','Good night','Nth','Mood','Please','Mm','Dance','Ith','thech','caption','Polikk','Aah','Good nyt','Mrng','Di','Bro','avan','converting','Allah','bg','help','Hii','odiko','oho','killadi','oo','Fuck','invite','Hi','love','Bgm','Owner','man','Nanba','oii','poda','yo','sad','work','set','remove','thukum','poko','myre,','kundan','xmedia','commands','Boss','vava','Myre','Lalitha','start','sing','Hello','Bye','warn','Baby','who','find','power','myr','vanam','tagall','Re entry','pass','patti','phaa','mone','look','bor','try','owner','luv','feel','romam','potte','no replay','bgm','vijay','poli','Da','Vazha','Rafi','rafi','Helena','helena','kunna','Kunna','Sorry','Sry','sorry','sry','Bot','bot','song','Uyir','uyir','myre','thayoli','Love','Hy','sed','Sed','Sad','Ayn']
+const array = ['name entha','King','Kooi','Love','menu','alive','git','Thamasha','big fan','charlie','gd n8','kar98','love u','Endi','endi','noob','Poweresh','Perfect ok','perfect ok','power','saji','sed','single','waiting','Myr','myr','Malappuram','uyir','thug','avastha','Moodesh','sketched','Cr7','Z aayi','manasilayo','Hi','nirtheda','Aarulle','Cr7 back','Portugal','ennitt','Boss',,'Haters','ayn','Kgf','sed bgm','Messi','Hehe','hehe','Set aano','set aano','Bot myren','Venda','venda','chadhi','Chadhi','Hbday','hbday','Bot','R yyi padicho','Myre','myre','Umbi','umbi','parayatte','Fresh','fresh','Ok da','ok da','Feel aayi','feel aaayi','Scene','scene','Ok bei','ok bei','Da','Kozhi','kozhi','adi','Adi','kali','Kali','thantha','Thantha','Aysheri','aysheri','thund','Thund','thot','Thot','sneham','Sneham','pm','Pm','paatt','Paatt','njan','Njan','life','Life','Killadi','killadi','good bye','Good bye','evide','Evide','achan','Achan','kunna','Kunna','broken','Broken','why','Why','enth patti','Enth patti','pani','Pani','padicho','Padicho','paad','Paad','Chatho','chatho','lover','Lover','nanayikoode','Nanayikoode','Die','die','hate','Hate','Lamiya engineering','lamiya engineering','nallath','Nallath','Neymer','neymer','patti','Patti','poora','Poora','Rohit','rohit','thall','Thall','Theri','theri','potte','Potte','Caption','caption','onn poyi','Onn poyi','problem','Problem','Chill','chill','help','Help','Kunda','kunda','povano','sthalam','Sthalam','tholvi','Tholvi','vannu','Vannu','malayalam','Malayalam','vaa','Vaa','lub','Ayin','thyr','Thyr','sad','Sed','kiss','Kiss','baby','Baby','hi','voice','love','Admin','admin','Remove','remove','boss','sorry','Owner','owner','Gud nyt','dream','Dream','Avastha','Bye','bye','Nijin','What','Voice','Vilikk','Verupikkalle','Vazha','Vada','Va','Undakanni','Unda','Uff','Troll','Time','Thair','Start','Sry','Sorry','Senti','Sed akki','Sarasu','Poyo','Povalle','Pova','pottan','Podi','Poda','Parayatte','Noob','Nikk','Nee etha','Name','Naayi','Mole','Mng','Mass','Marannu','Mandan','Manassilayo','Line','Kollum','Kollatte','Kannappi','Jocker','Ivan','Ijjathi','Jerry','Insult','Home','Happy birthday','Hacker','Group chathu','Group active','Good night','Friend','Food','Fan','Dude','Dora','Chaya','Business','Bott chathu','Block','Bgm1','Ayn','Audio','Aliya','Air','Age','Ara','Pubg','Pes','Bgmi','Husni','Nijin husni','Xxxtentacion','Mm','Hello','Maalutty','Free fire','Ff','Pamb','I love you','Parayula','Wifi password','complan','Sp','Aara','Bgm','Bgm2','Bgm3','Bgm4','Bgm5','Bgm6','song','Munna','video','insta','husni','nijin','Nijin Husni','sticker','photo','Football','Isl','Lm10','M','Neymar','Njr','Ronaldo','football','isl','lm10','m','Aa','Aa da','aa','Aaa','Hbd','hbd','Hlo','Haapy','Sad','Happy birthday','Busy','sad','happy','Happy Birthday']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -82,7 +82,7 @@ if(pattern.test(message.message)){
 }));
 }
     if (Config.GEAR == 'two') {    
-    Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {   
+    Maalutty.addCommand({on: 'text', fromMe: false}, (async (message, match) => {   
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
@@ -117,7 +117,7 @@ if(pattern.test(message.message)){
     );
 }));
 }
-Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
+Maalutty.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.STICKERP){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
@@ -128,7 +128,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/
 await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/ameenmention.webp'), MessageType.sticker, { mimetype: Mimetype.webp,quoted : message.data, ptt: false})
      }
        
-const array = ['umma','Umma','Oi','Ezra','ezra','Hi','nihal','Nihal','Sufaid','sufaid','Khais','khais','achu','Achu','Ok','ok','Sorry','sorry','nna','Nna','name','Name','myre','Myre','inna','Inna','Malare','git','Ameen','chaya','escape','truth','hm','pottan','oh','nokk','nude','oo','hi','kali','Remove','bot','lost','copy','Da','come','sex','sorry','podi','nee','done','kalam','Di','Dey','oho','Welcome','Nanba','ee','Hello','para','kindi','maalutty','check','podey','odiko','save','Hii','oii','sad','sed','thenga','bad','run','remove','love','kick','enth','ella','unmute','mute','Ayye','pm','Hhee','Patti','Chumma paranjatha','Myr','rply','selfie','ban','Sad','fuk','Engenend','Pattula', 'da','kittiyo','Comedy','resendo','Poda','mrng','Bot','Rafi','rafi']
+const array = ['asena','ayin','back','Back','Bot','fuck','Fuck','Hehe','Hello','Kill','kill','kiss','line','love','mwolu','Mwolu','single','tha','thund','z','Z','bie','Bie','Kaztro','Sad','Poocha','Poda','Bomb','Ayin','Ariyo','Alone','Pubg','Pes','Bgmi','Ff','Free fire','chavanam','Manassilayo','Manassilayilla','Kodathi','Kollum','vatt','Gaanam','Single','Maalutty','Xxxtentacion','Aa','Pottan','Budhi','Love','Njan','Mazha','Hi','Vella','Patt','Colour','Hacker','Ok','tts','Hack','Hii']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -164,7 +164,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
  
-Asena.addCommand({on: 'text', fromMe: false,onlyGroup: true}, (async (message, match) => {
+Maalutty.addCommand({on: 'text', fromMe: false,onlyGroup: true}, (async (message, match) => {
 
     if(Config.THERI_KICK){
     let banned = jid.find( Jid => Jid === message.jid);
@@ -192,7 +192,7 @@ filtreler.map(
     }
 );
 }));
- Asena.addCommand({on: 'text', fromMe: false, onlyPm: true}, (async (message, match) => {
+ Maalutty.addCommand({on: 'text', fromMe: false, onlyPm: true}, (async (message, match) => {
 
     if(Config.PLKS){
 const array = afnp 
