@@ -1,4 +1,4 @@
- \*
+/*
 const Rashi = require('../events');
 
  const { MessageType, Mimetype } = require('@adiwajshing/baileys');
