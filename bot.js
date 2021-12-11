@@ -186,7 +186,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ʙᴏᴛ ᴘᴏᴡᴇʀ💝*' , MessageType.text);
         }
 		while (getGMTh == 13 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -196,7 +196,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ʙᴏᴛ ᴘᴏᴡᴇʀ💝*' , MessageType.text);
         }
 		while (getGMTh == 17 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -206,7 +206,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ʙᴏᴛ ᴘᴏᴡᴇʀ💝*' , MessageType.text);
         } 
 		while (getGMTh == 21 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -216,7 +216,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ʙᴏᴛ ᴘᴏᴡᴇʀ💝*' , MessageType.text);
         }
     }, 50000);//Thanks to souravkl11 
 
