@@ -64,7 +64,7 @@ const array = ['name entha','King','Kooi','Love','menu','alive','git','Thamasha'
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgm/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgm/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted: message.data, ptt: true,quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": Config.BOT + '\n', "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
 }
 });
     }
@@ -100,7 +100,7 @@ const array = ['Khais','khais','Hi','pro','coming','maalutty','go','koii','updat
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgm/' + a + '.mp3'), MessageType.audio,{ mimetype: Mimetype.mp4Audio,duration: Config.SAID, ptt: true,quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": Config.BOT + '\n', "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/vava.png')}}}});
+       await message.client.sendMessage(message.jid, fs.readFileSync('./media/bgm/' + a + '.mp3'), MessageType.audio,{ mimetype: Mimetype.mp4Audio,duration: Config.SAID, ptt: true,quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": Config.BOT + '\n', "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
 }
 });
     }
@@ -128,11 +128,11 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/
 await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/ameenmention.webp'), MessageType.sticker, { mimetype: Mimetype.webp,quoted : message.data, ptt: false})
      }
        
-const array = ['asena','ayin','back','Mm','Back','Bot','fuck','Fuck','Hehe','Hello','Kill','kill','kiss','line','love','mwolu','Mwolu','single','tha','thund','z','Z','bie','Bie','Kaztro','Sad','Poocha','Poda','Bomb','Ayin','Ariyo','Alone','Pubg','Pes','Bgmi','Ff','Free fire','chavanam','Manassilayo','Manassilayilla','Kodathi','Kollum','vatt','Gaanam','Single','Maalutty','Xxxtentacion','Aa','Pottan','Budhi','Love','Njan','Mazha','Hi','Vella','Patt','Colour','Hacker','Ok','tts','Hack','Hii','list','Da']
+const array = ['asena','ayin','😂','back','Mm','Back','Bot','fuck','Fuck','Hehe','Hello','Kill','kill','kiss','line','love','mwolu','Mwolu','single','tha','thund','z','Z','bie','Bie','Kaztro','Sad','Poocha','Poda','Bomb','Ayin','Ariyo','Alone','Pubg','Pes','Bgmi','Ff','Free fire','chavanam','Manassilayo','Manassilayilla','Kodathi','Kollum','vatt','Gaanam','Single','Maalutty','Xxxtentacion','Aa','Pottan','Budhi','Love','Njan','Mazha','Hi','Vella','Patt','Colour','Hacker','Ok','tts','Hack','Hii','list','Da']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-   await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false})
+   await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false,quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(message.jid ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": Config.BOT + '\n', "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./photo/maalutty.jpg')}}}});
 }
 });
 }
