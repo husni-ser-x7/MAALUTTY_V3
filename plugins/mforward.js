@@ -29,7 +29,7 @@ Maalutty.addCommand({pattern: 'maaluforward ?(.*)', fromMe: true, desc: 'its for
       
     var location = await message.client.downloadAndSaveMediaMessage({
         key: {
-            remoteJid: message.all_message.jid,
+            remoteJid: message.reply_message.jid,
             id: message.reply_message.id
         },
         message: message.reply_message.data.quotedMessage
