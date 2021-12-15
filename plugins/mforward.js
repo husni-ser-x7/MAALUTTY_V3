@@ -9,11 +9,11 @@
  const Config = require('../config');
 
           var mode = ''
-if (Config.PLK == 'default') mode = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ : ʀᴀᴀsʜɪɪ'
+if (Config.BC == 'default') mode = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ : MAALUTTY'
 
-else mode = 'ғᴏʀᴡᴀʀᴅᴇᴅ ʙʏ ' + Config.PLK
+else mode = 'ғᴏʀᴡᴀʀᴅᴇᴅ ʙʏ ' + Config.BC
 
-            const raashi = {
+            const husni = {
 
                   key: {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "Elsa Mwol", "caption": mode , 'jpegThumbnail': fs.readFileSync('./media/image/logo.jpg')}}
              
