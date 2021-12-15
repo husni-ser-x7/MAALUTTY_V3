@@ -27,6 +27,7 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     WELCOME: process.env.WELCOME === undefined ? 'pp' : process.env.WELCOME,
     OWNER: process.env.OWNER_NAME === undefined ? '💖Nijin and Husni💖' : process.env.OWNER_NAME,
+    BC: process.env.BROADCAST_NAME === undefined ? 'ɪ̄.ᴀᴍ/ꪶ͢ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3ꫂ⁩' : process.env.BROADCAST_NAME,
     PHONE: process.env.NUMBER === undefined ? '+917025868709' : process.env.NUMBER,   
     OA_NAME: process.env.DEPLOYER === undefined ? 'Nijin,Husni' : process.env.DEPLOYER,
     ALL: process.env.ALL_CAPTION === undefined ? 'Made By MAALUTTY' : process.env.ALL_CAPTION,
