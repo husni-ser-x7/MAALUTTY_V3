@@ -9,7 +9,7 @@
  const Config = require('../config');
 
 
-Maalutty.addCommand({pattern: 'mforward ?(.*)', fromMe: true, desc: 'its foraward replied audio'}, (async (message, match) => {   
+Maalutty.addCommand({pattern: 'maaluforward ?(.*)', fromMe: true, desc: 'its foraward replied audio'}, (async (message, match) => {   
   
     if (message.reply_message === false);
     
