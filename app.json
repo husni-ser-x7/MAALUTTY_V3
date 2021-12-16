@@ -21,6 +21,22 @@
             "description": "Change This Image Link If You Want To Change Audio Bc Thumbnail",
             "required": true,
             "value": "https://i.ibb.co/3ypJ8QW/20211209-194953.jpg"
+      },
+        "V_HEADER": {
+            "description": "Set the Header name logo",
+            "required": true,
+            "value": "YOUR HEADER HERE"
+        },
+        "VERIFIED": {
+            "description": "Give with number jid",
+            "required": true,
+            "value": "0@s.whatsapp.net"
+        },
+                },
+        "DIALOGUE": {
+            "description": "set the Dialouge",
+            "required": true,
+            "value": "Muthe i love you"
         },
         "SUDO": {
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
