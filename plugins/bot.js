@@ -129,7 +129,7 @@ Eg: .dict en_US;lead
 💘  ```It sets the welcome message. If you leave it blank it shows the welcome message.``` 
 
 🔮 .goodbye
-💘  ```Sets the goodbye message. If you leave blank, it show's the goodbye message.``` 
+💘  ```Sets the goodbye message. If you leave blank, it shows the goodbye message.``` 
 
 🔮 .print 
 💘  ```Prints the inside of the file on the server.``` 
@@ -142,7 +142,7 @@ Eg: .dict en_US;lead
 💘  ```Uploads image, audio or video to the server.``` 
 
 🔮 .term1 
-💘  ```Allows to run the command on the server's shell.``` 
+💘  ```Allows to run the command on the servers shell.``` 
 
 🔮 .findvid
 💘  ```Shows the technical information of the replied video.``` 
@@ -194,7 +194,7 @@ Eg: .dict en_US;lead
 *⌨️ Eg:- :* ```.presence online / offline / typing / recording```
 
 🔮 .jid 
-💘  ```Giving user's JID.``` 
+💘  ```Giving users JID.``` 
 
 🔮 .random 
 💘  ```word image``` 
@@ -304,7 +304,7 @@ Eg: .dict en_US;lead
 💘  ```Turns the text into the change my mind poster.``` 
 
 🔮 .trumpsay 
-💘  ```Converts the text to Trump's tweet.``` 
+💘  ```Converts the text to Trumps tweet.``` 
 
 🔮 .bgm 
 💘  ```turn on and turn off bgm. -bot owner command``` 
