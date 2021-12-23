@@ -41,11 +41,6 @@
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
             "required": false
         },
-         "MAALUTTY_PASSWORD": {
-            "description": "don't change this password.ee password ningal maataruth error aavum",
-            "required": true,
-            "value": "husninijin"
-        },
         "LANGUAGE": {
             "description": "Bot language.English => en",
             "required": true,
