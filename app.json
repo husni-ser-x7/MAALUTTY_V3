@@ -106,11 +106,6 @@
             "required": true,
             "value": "false"
         },
-        "CMD_LIST": {
-            "description": "You can change Command list emojis like: help/❤️/😅/🍃/💌.)",
-            "required": true,
-            "value": "MAALUTTY/💞/💝/✨/📝"
-        },
         "BGM_DURATION": {
             "description": "FUNY BGM DURATION  codded by SAIDALI",
             "required": false,
@@ -193,7 +188,7 @@
         "NUMBER": {
             "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
             "required": false,
-            "value": "919605741366"
+            "value": "917025868709"
         },
         "DEPLOYER": {
             "description": "enter your name here",
@@ -202,7 +197,7 @@
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "◄━⦁💝 MAALUTTY_V3💝⦁━►"
+            "value": "ꪶ͢💝ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3💝ꫂ⁩"
         },
         "WORK_TYPE": {
             "description": "Maalutty Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
@@ -222,10 +217,15 @@
             "description": "https://remove.bg",
             "required": false
         },
-        "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! Use => default, to change back.",
-            "required": false,
-            "value": "\n╔══╗╔╗─╔══╗╔╗─╔╗╔═╗\n║╔╗║║║─╚║║╝║╚╦╝║║╦╝\n║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗\n╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝ \n \n type .list of commands😎"
+        "ALIVE_BUTTON": {
+            "description": "Customize Alive Button ",
+            "required": true,
+            "value": "ᴇɴɢᴀɴᴇʏᴜɴᴅ \n ᴍᴀᴀʟᴜᴛᴛʏ🌝"
+        },
+        "ALIVE_BUTTON2": {
+            "description": "Customize Alive Button ",
+            "required": true,
+            "value": "POWEREESH🤩"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
