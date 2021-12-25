@@ -1,4 +1,4 @@
-FROM souravkl11/raganork:test
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/nijin-husni/MAALUTTY_V3/ /skl/raganork
 WORKDIR /skl/raganork 
