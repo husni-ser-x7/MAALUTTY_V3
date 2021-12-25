@@ -1,4 +1,3 @@
-const truecaller = require('raganork-bot')
 const New = require('../events');
 const setting = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
