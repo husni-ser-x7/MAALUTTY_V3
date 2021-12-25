@@ -1,8 +1,9 @@
+const truecaller = require('raganork-bot')
 const New = require('../events');
 const setting = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 let sourav = setting.WORKTYPE == 'public' ? false : true
-New.addCommand({pattern: 'truecaller ?(.*)', desc: 'Searches for number in truecaller!',fromMe: true}, async (msg, query) => {
+New.addCommand({pattern: 'true ?(.*)', desc: 'Searches for number in truecaller!',fromMe: true}, async (msg, query) => {
 	if (!query[1]) return await msg.reply("_Give me any number or mention any user!_");
 	if (query[1].includes('/')) {
     var init, fin;
