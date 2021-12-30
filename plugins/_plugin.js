@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
 */
 
-const Asena = require("../Utilis/events")
+const Asena = require("../events")
 const got = require("got")
 const fs = require("fs")
 const { installPlugin, PluginDB } = require("./sql/plugin")
