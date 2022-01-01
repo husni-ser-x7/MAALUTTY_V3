@@ -1,3 +1,8 @@
+/* Copyright (C) nijin-husni
+Mwonu credits kalayalle
+Maalutty-nijin-husni
+*/
+
 const Maalutty = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
@@ -10,7 +15,7 @@ Maalutty.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (mess
     var r_text = new Array ();
     
     
-    r_text[0] = "https://i.ibb.co/3ypJ8QW/20211209-194953.jpg";
+    r_text[0] = "https://i.ibb.co/6tbmPj1/maaluttty.jpg";
     
     
     var i = Math.floor(1*Math.random())
