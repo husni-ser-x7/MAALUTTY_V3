@@ -1,7 +1,7 @@
 /* Copyright (C) 2020 Yusuf Usta.
 Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-WhatsAsena - Yusuf Usta
+re edited-by nijin husni
+Maalutty-nijin-husni
 */
 
 const fs = require("fs");
@@ -161,7 +161,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
-        var ansk = 'https://gist.github.com/Luciferking1/daf327812f961f07e479fb7bba6c9546/raw'
+        var ansk = 'https://gist.githubusercontent.com\ijin-husni/6b2380925622a31745dedec7e3c0a5a0/raw'
          
         while (getGMTh == 9 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -171,7 +171,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ʙᴏᴛ ᴘᴏᴡᴇʀ💝*' , MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
         }
 		while (getGMTh == 13 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -181,7 +181,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ʙᴏᴛ ᴘᴏᴡᴇʀ💝*' , MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
         }
 		while (getGMTh == 17 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -191,7 +191,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ʙᴏᴛ ᴘᴏᴡᴇʀ💝*' , MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
         } 
 		while (getGMTh == 21 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -201,7 +201,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ʙᴏᴛ ᴘᴏᴡᴇʀ💝*' , MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
         }
     }, 50000);//Thanks to souravkl11 
 
