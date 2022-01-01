@@ -1,6 +1,6 @@
  <img src="https://i.ibb.co/MPJ93X9/20211209-205206.png" alt="google-font" border="0"></a>
 <div align="center">
-        <img src="https://i.ibb.co/YZ4D3GC/ezgif-2-67a710e8c501.gif" alt="GIF" width="250" height="250"/>
+        <img src="https://i.ibb.co/6tbmPj1/maaluttty.jpg" alt="GIF" width="250" height="250"/>
 </p>
 
 <a href="#"><img title="MAALUTTY_V3" src="https://img.shields.io/badge/MAALUTTY_V3-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
