@@ -143,7 +143,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./photo/maalutty.jpg"), MessageType.image, { caption: `*ʜᴇʏ ʙʀᴏ ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ᴡᴏʀᴋɪɴɢ ᴏɴ + config.WORKTYPE +🥂* \n\n*.ᴏᴡɴᴇʀᴄᴍᴅ ɢᴇᴛ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs🔰* \n\n*ᴛʜᴀɴᴋʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3🥂*`});
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./photo/maalutty.jpg"), MessageType.image, { caption: `*ʜᴇʏ ʙʀᴏ ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ᴡᴏʀᴋɪɴɢ 🥂* \n\n*.ᴏᴡɴᴇʀᴄᴍᴅ ɢᴇᴛ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs🔰* \n\n*ᴛʜᴀɴᴋʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3🥂*`});
                 } else {
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
@@ -161,7 +161,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
-        var ansk = 'https://gist.githubusercontent.com\ijin-husni/6b2380925622a31745dedec7e3c0a5a0/raw'
+        var ansk = 'https://gist.githubusercontent.com\nijin-husni/6b2380925622a31745dedec7e3c0a5a0/raw'
          
         while (getGMTh == 9 && getGMTm == 01) {
             const {data} = await axios(ansk)
