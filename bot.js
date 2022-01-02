@@ -143,7 +143,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./photo/maalutty.jpg"), MessageType.image, { caption: `*ʜᴇʏ ʙʀᴏ ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3 ᴡᴏʀᴋɪɴɢ ` + config.WORKTYPE + ` 🥂* \n\n*.ᴏᴡɴᴇʀᴄᴍᴅ ɢᴇᴛ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs🔰* \n\n*ᴛʜᴀɴᴋʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3🥂*`});
+                    await conn.sendMessage(conn.user.jid,Lang.UPDATE, MessageType.text);
                 } else {
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
