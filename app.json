@@ -19,23 +19,23 @@
         },
         "ALL_IMG": {
             "description": "Change This Image Link If You Want To Change Audio Bc Thumbnail",
-            "required": true,
+            "required": false,
             "value": "https://i.ibb.co/3ypJ8QW/20211209-194953.jpg"
         },
         "V_HEADER": {
             "description": "Set the Header name logo",
-            "required": true,
-            "value": "YOUR HEADER HERE"
+            "required": false,
+            "value": "ɪ̄.ᴀᴍ/ꪶ͢ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3ꫂ⁩"
         },
         "VERIFIED": {
             "description": "Give with number jid",
-            "required": true,
+            "required": false,
             "value": "0@s.whatsapp.net"
         },
         "DIALOGUE": {
             "description": "set the Dialouge",
-            "required": true,
-            "value": "Muthe i love you"
+            "required": false,
+            "value": "ɪ̄.ᴀᴍ/ꪶ͢ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3ꫂ⁩"
         },
         "SUDO": {
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
@@ -43,7 +43,7 @@
         },
         "LANGUAGE": {
             "description": "Bot language.English => en",
-            "required": true,
+            "required": false,
             "value": "en"
         },
         "BGM_FILTER": {
@@ -53,7 +53,7 @@
         },
         "OWNER_NAME": {
             "description": "Fill your name in here. it will show your name in .owner command reply",
-            "required": true,
+            "required": false,
             "value": "💖Nijin and Husni💖"
         },
         "AUTO_STICKER": {
@@ -63,7 +63,7 @@
         },
         "INBO_BLOCK": {
             "description": "Inbox Blocking System. True koduthal ningalude pml vann chila bad words upoayogikunnavare bot block aakum block aakendengil false kodukuka",
-            "required": true,
+            "required": false,
             "value": "false"
         },
         "WELCOME": {
@@ -73,12 +73,12 @@
         },
         "LG_LOGO": {
             "description": "LOGO list message image link(https://telegra.ph/)link.",
-            "required": true,
+            "required": false,
             "value": "https://i.ibb.co/3ypJ8QW/20211209-194953.jpg"
         },
         "LOGO_NAME": {
             "description": "Set the logo list name",
-            "required": true,
+            "required": false,
             "value": "MAALUTTY_V3"
         },
         "WEL_GIF": {
@@ -98,7 +98,7 @@
         },
         "ANTİ_LİNK": {
             "description": "Link Blocking System.",
-            "required": true,
+            "required": false,
             "value": "false"
         },
         "BGM_DURATION": {
@@ -108,12 +108,12 @@
         },
         "AUTO_BİO": {
             "description": " Set true for auto date, time in biography.",
-            "required": true,
+            "required": false,
             "value": "false"
         },
         "BAD_WORDS": {
             "description": "enter the word you dont allow in your group ",
-            "required": true,
+            "required": false,
             "value": "false"
         },
         "HANDLERS": {
@@ -123,17 +123,17 @@
         },
         "TALKING_MAALUTTY": {
             "description": "Turn your account into a talking maalutty!",
-            "required": true,
+            "required": false,
             "value": "true"
         },
         "NO_LOG": {
             "description": " Set true if you don't want to see error log.",
-            "required": true,
+            "required": false,
             "value": "false"
         },
         "SEND_READ": {
             "description": "Write true if you want to throw seen.",
-            "required": true,
+            "required": false,
             "value": "true"
         },
         "ALL_CAPTION": {
@@ -196,16 +196,16 @@
         },
         "WORK_TYPE": {
             "description": "Maalutty Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
-            "required": true,
+            "required": false,
             "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
-            "required": true
+            "required": false
         },
         "DEBUG": {
             "description": "Debugging",
-            "required": true,
+            "required": false,
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
@@ -214,12 +214,12 @@
         },
         "ALIVE_BUTTON": {
             "description": "Customize Alive Button ",
-            "required": true,
+            "required": false,
             "value": "ᴇɴɢᴀɴᴇʏᴜɴᴅ \n ᴍᴀᴀʟᴜᴛᴛʏ🌝"
         },
         "ALIVE_BUTTON2": {
             "description": "Customize Alive Button ",
-            "required": true,
+            "required": false,
             "value": "POWEREESH🤩"
         },
         "BAN_MESSAGE": {
@@ -229,12 +229,12 @@
         },
         "SONGD": {
             "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
-            "required": true,
+            "required": false,
             "value": "*Downloading your song*"
         },
         "SONGU": {
             "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
-            "required": true,
+            "required": false,
             "value": "*Feel the song*"
         },
         "ADD_MESSAGE": {
