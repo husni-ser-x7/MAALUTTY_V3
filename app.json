@@ -15,7 +15,7 @@
          "BROADCAST_NAME": {
             "description": "maalu forward ordertext",
             "required": false,
-            "value": "ꪶ͢𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈_𝚅3ꫂ⁩"
+            "value": "✰𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈_𝚅3✰"
         },
         "ALL_IMG": {
             "description": "Change This Image Link If You Want To Change Audio Bc Thumbnail",
@@ -25,7 +25,7 @@
         "V_HEADER": {
             "description": "Set the Header name logo",
             "required": false,
-            "value": "ꪶ͢𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈_𝚅3ꫂ⁩"
+            "value": "✰𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈_𝚅3✰"
         },
         "VERIFIED": {
             "description": "Give with number jid",
