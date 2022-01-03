@@ -35,7 +35,7 @@
         "DIALOGUE": {
             "description": "set the Dialouge",
             "required": false,
-            "value": "ꪶ͢MAALUTTY_V3ꫂ⁩"
+            "value": "✰𝙼𝙰𝙰𝙻𝚄𝚃𝚃𝚈_𝚅3✰⁩"
         },
         "SUDO": {
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
@@ -192,7 +192,7 @@
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "ꪶ͢ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3ꫂ🥂⁩"
+            "value": "✰ᴍᴀᴀʟᴜᴛᴛʏ_ᴠ3✰🥂⁩"
         },
         "WORK_TYPE": {
             "description": "Maalutty Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
