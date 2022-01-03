@@ -10,7 +10,7 @@
     "env": {
         "MAALUTTY_CODE": {
             "description": "Type the code when you got by scanning QR through WhatsApp.",
-            "required": true
+            "required": false
         },
          "BROADCAST_NAME": {
             "description": "maalu forward ordertext",
@@ -118,7 +118,7 @@
         },
         "HANDLERS": {
             "description": "For commands.",
-            "required": true,
+            "required": false,
             "value": "^[.!;]"
         },
         "TALKING_MAALUTTY": {
@@ -143,12 +143,12 @@
         },
         "HEROKU": {
             "description": "If it is running in Heroku, type true.",
-            "required": true,
+            "required": false,
             "value": "true"
         },
         "HEROKU_API_KEY": {
             "description": "Heroku API Key.",
-            "required": true
+            "required": false
         },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
