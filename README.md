@@ -64,7 +64,8 @@ $ node maalutty.js
 </p>
 
 ## 📢 Guide
-Click WA logo to Join Support Group 👇
+Click WA logo to Join Support Group 👇 
+##Not allowed bots on this group 🔰
     <br>
 <br>
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/FO3JyZPm1ma3vHyEQjaToY)
@@ -72,6 +73,7 @@ Click WA logo to Join Support Group 👇
 
 
 Click WA logo to Join public bot Group👇
+##Bots allowed grops 🔰
     <br>
 <br>
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BUt420LTGKBHNHALHKV9jJ)
