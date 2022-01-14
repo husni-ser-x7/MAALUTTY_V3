@@ -258,6 +258,6 @@
     },
     
     "buildpacks": [{
-      "url": "heroku-community/apt"
+      "url": "heroku/nodejs"
       }]
   }
