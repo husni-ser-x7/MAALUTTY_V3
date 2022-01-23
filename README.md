@@ -107,9 +107,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![Ameen-ser](https://github.com/Ameen-ser.png?size=100)](https://github.com/Ameen-ser) | [![nijin-husni](https://github.com/nijin-husni.png?size=100)](https://github.com/AI-VIKI) | [![Luciferking](https://github.com/luciferking1.png?size=100)](https://github.com/luciferking1) 
+  [![Ameen-ser](https://github.com/Ameen-ser.png?size=100)](https://github.com/Ameen-ser) | [![nijin-husni](https://github.com/nijin-husni.png?size=100)](https://github.com/AI-VIKI) | [![Luciferking](https://github.com/Farhan-dqz.png?size=100)](https://github.com/luciferking1) 
 ----|----|----
-[Ameen-ser](https://github.com/Ameen-ser) | [nijin-husni](https://github.com/nijin-husni) | [luciferking1](https://github.com/luciferking1) 
+[Ameen-ser](https://github.com/Ameen-ser) | [nijin-husni](https://github.com/nijin-husni) | [Farhan](https://github.com/Farhandqz) 
 Developer, Base, Bug Fixes, Modules| Re-Developer, Bug Fixes, Modules, Commits |  Developer, Base, Bug Fixes, Modules
   </div>
     
