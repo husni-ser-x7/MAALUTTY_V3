@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "MAALUTTY_CODE": {
-            "description": "Type the code when you got by scanning QR through WhatsApp.",
+            "description": "Maalutty;;;eyJjbGllbnRJRCI6IkZLaHhLdU03K3B1SDdiUnZQTEd3eXc9PSIsInNlcnZlclRva2VuIjoiMUAyamNVWC9zNkt1eFZnQmxYQmlSNjlpbFd0SXA2UmxZM0tWckJLZ1NCVHR5UC9Hei9pRDNrblQvYmVGYkpRUXpSNG5RMmdxY1QwalZxZnc9PSIsImNsaWVudFRva2VuIjoiTVY4TTVVTUNVc1hBaG5qdG10S1VraXR5R1RPa3A1cDhyWWlsS1NMTlRFaz0iLCJlbmNLZXkiOiJJRndCc0poSVV4UEl2TCtnNi9OZmMrTkJVYmgyRm5lUzRObUp4WU93dzJFPSIsIm1hY0tleSI6ImUyQjRjWk8rSWtLci8rajdhMm96ekFyUEhqcGx0ZXhsV2ZVbnFLSmVNaGM9In0=.",
             "required": true
         },
          "BROADCAST_NAME": {
